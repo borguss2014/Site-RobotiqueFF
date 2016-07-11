@@ -1,8 +1,7 @@
 # Site-RobotiqueFF
+
 The robotic's club (RobotiqueFF) website 
 
---------------------------------------
-
-#Deployment
+# Deployment
  
 Run 'npm install' to get all dependencies.
