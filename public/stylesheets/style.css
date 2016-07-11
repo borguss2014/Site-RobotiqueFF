@@ -1,0 +1,100 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #E6E6E6;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#mainContent {
+  background-color: #FFFFFF;
+  margin-bottom: 3%;
+  border-radius: 5px;
+}
+
+#contentHeader {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 4%;
+}
+
+.contentArrange {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 4%;
+  padding-bottom: 5%;
+}
+
+aside {
+  padding: 3% 5%;
+}
+
+footer {
+  color: white;
+  background-color: #222;
+}
+
+#footerFirstRow {
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+
+#footerFirstRow ul{
+  list-style-type: none;
+}
+
+#footerFirstRow a{
+  color: #AAA;
+}
+
+#footerSecondRow {
+  padding-bottom: 3%;
+}
+
+#footerDivider {
+  border: 1px solid #333;
+}
+
+.scrollup{
+    width:40px;
+    height:40px;
+    opacity:0.3;
+    position:fixed;
+    bottom:40px;
+    right:40px;
+    display:none;
+    text-indent:-9999px;
+    background: url('/images/up-black-arrow-md.png') center center;
+    background-size: cover;
+
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 4%;
+}
+
+#banner {
+  margin-top: 50px;
+}
+
+.btn-facebook-padding {
+  padding-left: 35px;
+}
+
+
+/*Below code can be used to center navbar links in the page . Uncomment if needed*/
+
+/*@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}*/

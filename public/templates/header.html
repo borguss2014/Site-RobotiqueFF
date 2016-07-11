@@ -1,0 +1,62 @@
+<nav class="navbar navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Logo here -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/" class="navbar-brand navbar-left">RobotiqueFF</a>
+        </div>
+
+        <!-- Navbar menu items -->
+        <div class="collapse navbar-collapse" id="mainNavBar">
+            <ul class="nav navbar-nav navbar-left">
+                <li ng-class="{active: isActive('/home')}"><a href="#/home">Home</a></li>
+
+                <!-- Dropdown menu About-->
+                <li class="dropdown">
+                  <a href="" class="dropdown-toggle" data-toggle="dropdown">About<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li ng-class="{active: isActive('/istoric')}"><a href="#/istoric">Istoric</a></li>
+                    <li ng-class="{active: isActive('/membrii')}"><a href="#/membrii">Membrii</a></li>
+                    <li ng-class="{active: isActive('/premii')}"><a href="#/premii">Premii</a></li>
+                    <li ng-class="{active: isActive('/why-robotique')}"><a href="#/why-robotique">De ce RobotiqueFF ?</a></li>
+                  </ul>
+                </li>
+
+                <li ng-class="{active: isActive('/noutati')}"><a href="#/noutati">Noutati</a></li>
+
+                <!-- Dropdown menu Cursuri-->
+                <li class="dropdown">
+                  <a href="" class="dropdown-toggle" data-toggle="dropdown">Cursuri<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li ng-class="{active: isActive('/detalii')}"><a href="#/detalii">Detalii</a></li>
+                    <li ng-class="{active: isActive('/descriere-roboti')}"><a href="#/descriere-roboti">Descriere roboti</a></li>
+                  </ul>
+                </li>
+
+                <li ng-class="{active: isActive('/contact')}"><a href="#/contact">Contact</a></li>
+
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right nav-pills">
+              <li>
+                <a href="https://www.facebook.com/robotiqueff" class="btn btn-social-icon btn-facebook">
+                    <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+
+<div id="banner" class="container">
+   <div class="row">
+  	<img src="/images/banner-robotics.jpg" class="img-responsive col-sm-12 no-padding">
+   </div>
+</div>

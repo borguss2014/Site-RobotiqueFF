@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html data-ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+        <!-- Using latest jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+        <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js'></script>
+
+        <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js'></script>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+        integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+        <link rel='stylesheet' href='/stylesheets/style.css'/>
+        <link rel='stylesheet' href='/stylesheets/navbar.css'/>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    </head>
+
+    <body ng-controller="myCtrl" bgcolor="#FFFFFF">
+
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+      </script>
+
+        <!-- Navbar and banner-->
+        <header data-ng-include="'/templates/header.html'"></header>
+
+        <div id="mainContent" class="container">
+
+          <!-- Content header-->
+          <div id="contentHeader">
+
+            <h1> {{ currentTitle(); }}</h1>
+
+            <hr />
+
+          </div>
+
+
+
+          <!-- Content -->
+          <data-ng-view></data-ng-view>
+
+
+
+            <div class="fb-like col-sm-8 contentArrange" data-href="https://www.facebook.com/robotiqueff/"
+              data-width="300" data-layout="standard"
+              data-action="like" data-size="small"
+              data-show-faces="true" data-share="false">
+            </div>
+
+
+
+        </div>
+
+
+
+
+        <!-- Footer -->
+        <footer ng-include="'/templates/footer.html'"></footer>
+
+
+        <a href="#" class="scrollup">Scroll</a>
+
+        <script type="text/javascript" src="/javascripts/scrollTop.js"></script>
+
+        <script src="/javascripts/indexController.js"></script>
+
+    </body>
+
+</html>
