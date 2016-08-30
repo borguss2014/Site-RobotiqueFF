@@ -85,6 +85,16 @@ footer {
 }
 
 
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  height: 400px;
+  margin: auto;
+}
+
+
+
 /*Below code can be used to center navbar links in the page . Uncomment if needed*/
 
 /*@media (min-width: 768px) {
