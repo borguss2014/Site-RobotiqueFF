@@ -13,4 +13,5 @@ Start the server with 'node bin/www' or use nodemon to automatically restart the
 # Languages & Technologies
 
 HTML, CSS, Javascript
+
 AngularJS, Bootstrap,  NodeJS + ExpressJS framework
