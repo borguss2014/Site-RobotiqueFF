@@ -1,6 +1,6 @@
 # Site-RobotiqueFF
 
-The robotic's club (RobotiqueFF) website 
+The robotics club (RobotiqueFF) website 
 
 # Deployment
  
