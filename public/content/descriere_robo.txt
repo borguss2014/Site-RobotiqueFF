@@ -1,0 +1,48 @@
+<title>{{title}}</title>
+<div class="col-sm-6">
+<div class=””contentArrange””>
+<h2><b>LineFollower</b></h2><br>
+<p><b>MECANICA</b></p><br>
+<ul>
+    <li>?asiul </li>
+    <li>Motoare cu reduc?ie </li>
+    <li>Ro?i</li>
+  </ul><br>
+  <img src="/images/roboti4.jpg" alt=" mini-sumo" width="450" height="300">
+<p><b>ELECTRONICA</b></p><br>
+<ul>
+    <li>Acumulator Li-Po</li>
+    <li>Driver de motoare </li>
+    <li>Senzori cu infraro?u </li>
+    <li>Multiplexor </li>
+<li>Microcontroller </li>
+</ul><br>
+<img src="/images/roboti.jpg" alt=" mini-sumo" width="450" height="300">
+<p><b>SCOP:</b>  urmarirea unei linii negre ?i evitare obstacolelor de pe traseu</p><br>
+</div>
+</div>
+<aside class="col-sm-6 contentArrange">
+ <img src="/images/roboti3.jpg" alt=" mini-sumo" width="450" height="300">
+ <h2><b>Robot de Sumo</b></h2><br>
+<p><b>MECANICA</b></p> <br>
+<ul>
+    <li>?asiul </li>
+    <li>Motoare cu reduc?ii </li>
+    <li>Magne?i </li>
+    <li>Lama de o?el </li>
+  </ul>
+<br>
+<img src="/images/roboti1.jpg" alt=" mini-sumo" width="450" height="300">
+<p><b>ELECTRONICA</b></p><br>
+<ul>
+    <li>Acumulator Li-Po</li>
+    <li>Driver de motoare </li>
+    <li>Senzori IR de distan?a </li>
+    <li>Senzori de linie </li>
+<li>Microcontroller </li>
+</ul>
+<br>
+<p><b>SCOP:</b>  scoaterea robotului adversar din ring</p>
+
+<br>
+</aside>
