@@ -26,6 +26,12 @@ a {
   padding-bottom: 5%;
 }
 
+.container_photo_text {
+  padding-top: 4%;
+  margin-bottom: 8%;
+}
+
+
 aside {
   padding: 3% 5%;
 }
@@ -117,6 +123,11 @@ footer {
     }
 }
 /*======================*/
+
+
+#poli {
+    transition: -webkit-transform 0.25s ease;
+}
 
 
 /*Below code can be used to center navbar. Uncomment if needed*/

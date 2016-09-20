@@ -1,100 +1,101 @@
 <!DOCTYPE html>
 <html data-ng-app="myApp">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-        <!-- Using latest jquery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js'></script>
+    <!-- Using latest jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
-        <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js'></script>
 
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
-        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js'></script>
 
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
-        integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-        <link rel='stylesheet' href='/stylesheets/style.css'/>
-        <link rel='stylesheet' href='/stylesheets/navbar.css'/>
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
-    </head>
+    <!-- Google maps -->
+    <script src="https://www.hostingreviews.website/google-maps-authorization.js?id=e6b5fbc2-c662-4696-5b68-8e238edabbab&c=embedded-map-code&u=1472721707"></script>
 
-    <body ng-controller="myCtrl" bgcolor="#FFFFFF">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/navbar.css' />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-      <div id="fb-root"></div>
-      <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-      </script>
+</head>
+
+<body ng-controller="myCtrl" bgcolor="#FFFFFF">
+
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 
 
-        <!-- Navbar and banner-->
-        <header data-ng-include="'/templates/header.html'"></header>
+    <!-- Navbar and banner-->
+    <header data-ng-include="'/templates/header.html'"></header>
 
-        <div id="mainContent" class="container">
+    <div id="mainContent" class="container">
 
-          <!-- Content header-->
-          <div id="contentHeader">
+        <!-- Content header-->
+        <div id="contentHeader">
 
             <h1> {{ currentTitle(); }}</h1>
 
             <hr />
 
-          </div>
-
-
-
-          <!-- Content -->
-          <data-ng-view></data-ng-view>
-
-
-
-            <div class="fb-like col-sm-8 contentArrange" data-href="https://www.facebook.com/robotiqueff/"
-              data-width="280" data-layout="standard"
-              data-action="like" data-size="small"
-              data-show-faces="true" data-share="false">
-            </div>
-
-            <br>
-            <br>
-
         </div>
 
 
 
+        <!-- Content -->
+        <data-ng-view></data-ng-view>
 
-        <!-- Footer -->
-        <footer ng-include="'/templates/footer.html'"></footer>
 
 
-        <a href="#" class="scrollup">Scroll</a>
+        <div class="fb-like col-sm-8 contentArrange" data-href="https://www.facebook.com/robotiqueff/" data-width="280" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="false">
+        </div>
 
-        <script type="text/javascript" src="/javascripts/scrollTop.js"></script>
+        <br>
+        <br>
 
-        <script src="/javascripts/indexController.js"></script>
+    </div>
 
-        <script>
-        $(document).on('click','.navbar-collapse.in',function(e) {
-    if( $(e.target).is('a') ) {
-        $(this).collapse('hide');
-    }
-});
-        </script>
 
-    </body>
+
+
+    <!-- Footer -->
+    <footer ng-include="'/templates/footer.html'"></footer>
+
+
+    <a href="#" class="scrollup">Scroll</a>
+
+    <script type="text/javascript" src="/javascripts/scrollTop.js"></script>
+
+    <script src="/javascripts/indexController.js"></script>
+    <script src="/javascripts/jquery.zoom.js"></script>
+
+    <script>
+        $(document).on('click', '.navbar-collapse.in', function(e) {
+            if ($(e.target).is('a')) {
+                $(this).collapse('hide');
+            }
+        });
+    </script>
+
+</body>
 
 </html>
