@@ -93,9 +93,30 @@ footer {
   margin: auto;
 }
 
+@media screen and (max-width: 568px) {
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img  {
+    height: 200px;
+    }
+}
+
+/* Responsive text*/
+/*======================*/
+@media screen and (max-width: 568px) {
+        h1 {
+    font-size:20px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+        h3 {
+    font-size:18px;
+    }
+}
+/*======================*/
 
 
-/*Below code can be used to center navbar links in the page . Uncomment if needed*/
+/*Below code can be used to center navbar. Uncomment if needed*/
 
 /*@media (min-width: 768px) {
     .navbar .navbar-nav {
