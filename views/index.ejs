@@ -41,6 +41,7 @@
       }(document, 'script', 'facebook-jssdk'));
       </script>
 
+
         <!-- Navbar and banner-->
         <header data-ng-include="'/templates/header.html'"></header>
 
@@ -63,12 +64,13 @@
 
 
             <div class="fb-like col-sm-8 contentArrange" data-href="https://www.facebook.com/robotiqueff/"
-              data-width="300" data-layout="standard"
+              data-width="280" data-layout="standard"
               data-action="like" data-size="small"
               data-show-faces="true" data-share="false">
             </div>
 
-
+            <br>
+            <br>
 
         </div>
 
@@ -84,6 +86,14 @@
         <script type="text/javascript" src="/javascripts/scrollTop.js"></script>
 
         <script src="/javascripts/indexController.js"></script>
+
+        <script>
+        $(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+});
+        </script>
 
     </body>
 
