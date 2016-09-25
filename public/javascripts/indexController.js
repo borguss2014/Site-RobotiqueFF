@@ -34,6 +34,12 @@ myApp.controller("myCtrl", function($scope, $location){
   };
 });
 
+myApp.controller("loadMembers", function($scope, $http){
+  $http.get('javascripts/members.json').success(function(data){
+    $scope.membersData = data;
+  });
+});
+
 myApp.run(function($rootScope, $location, $anchorScroll, $routeParams) {
   $rootScope.$on('$routeChangeSuccess', function(newRoute, oldRoute) {
     $location.hash($routeParams.scrollTo);
