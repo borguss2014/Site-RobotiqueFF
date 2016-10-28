@@ -1,77 +1,82 @@
 [{
-    "name": "Alexandru Chiser",
-    "photo": "images/alex_c.jpg",
-    "words": "placeholder"
-}, {
     "name": "Alexandru Erbasu",
     "photo": "images/alex_e.jpg",
-    "words": "placeholder"
+    "facultate": "Inginerie în Limbi Străine"
 }, {
     "name": "Alexandru Lazar",
     "photo": "images/alex_lazar.jpg",
-    "words": "placeholder"
+    "facultate": "Energetică"
 }, {
     "name": "Alin Moisi",
     "photo": "images/alin-moisi.jpg",
-    "words": "placeholder"
+    "facultate": "Automatică și Calculatoare"
 }, {
     "name": "Beatrice Balaceanu",
     "photo": "images/beatrice.jpg",
-    "words": "placeholder"
+    "facultate": "Inginerie Aerospaţială"
 }, {
     "name": "Bianca Gridean",
     "photo": "images/bianca.jpg",
-    "words": "placeholder"
+    "facultate": "Automatică și Calculatoare"
+
 }, {
     "name": "Constantin Calin",
     "photo": "images/constantin_calin.jpg",
-    "words": "placeholder"
+    "facultate": "Inginerie în Limbi Străine"
+
 }, {
     "name": "Cristian Spoiala",
     "photo": "images/cristian.jpg",
-    "words": "placeholder"
+    "facultate": "Inginerie în Limbi Străine"
+
 }, {
     "name": "Cristina Gavrilov",
     "photo": "images/cristina.jpg",
-    "words": "placeholder"
+    "facultate": "N/A"
+
 }, {
     "name": "Diana Simon",
     "photo": "images/diana.jpg",
-    "words": "placeholder"
+    "facultate": "N/A"
+
 }, {
     "name": "Francisc Czobor",
     "photo": "images/Francisc.jpg",
-    "words": "placeholder"
+    "facultate": "Automatică și Calculatoare"
+
 }, {
     "name": "Loris Chivu",
     "photo": "images/loris.jpg",
-    "words": "placeholder"
+    "facultate": "Inginerie mecanică și mecatronică"
+
 }, {
     "name": "Marian Irimia",
     "photo": "images/marian.jpg",
-    "words": "placeholder"
+    "facultate": "Inginerie Aerospaţială"
+
 }, {
     "name": "Mihai Bacanasu",
     "photo": "images/mihai_b.jpg",
-    "words": "placeholder"
+    "facultate": "Automatică și Calculatoare"
+
 }, {
-    "name": "Mihai Popovici",
+    "name": "Stefan Andrei Lupu",
     "photo": "images/mihai_popovici.jpg",
-    "words": "placeholder"
+    "facultate": "Inginerie electrică"
+
 }, {
     "name": "Mihai Spataru",
     "photo": "images/mihai_s.jpg",
-    "words": "placeholder"
-}, {
-    "name": "Mihai Ursuleanu",
-    "photo": "images/mihai_ursuleanu.jpg",
-    "words": "placeholder"
+    "facultate": "Automatică și Calculatoare"
+
 }, {
     "name": "Ovidiu Bizinic",
     "photo": "images/ovidiu.jpg",
-    "words": "placeholder"
+    "facultate": "Inginerie în Limbi Străine"
+
 }, {
     "name": "Vlad Urziceanu",
     "photo": "images/vlad.jpg",
-    "words": "placeholder"
+    "facultate": "Automatică și Calculatoare"
+
 }]

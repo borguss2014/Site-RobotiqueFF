@@ -3,21 +3,22 @@
 <div class="contentArrange">
 
     <div ng-controller="loadMembers">
-        <div class="contentArrange">
+
+
             <div ng-repeat="member in membersData">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 textCenter">
                     <h3>{{member.name}}</h3>
                     <div class="hovereffect">
                         <img class="img-responsive" ng-src="{{member.photo}}" alt="">
                         <div class="overlay">
-                            <h2>Trei cuvinte care te reprezinta: </h2>
-                            <h3 font="white">{{member.words}}</h3>
+                            <h2>Facultate: <br><br> {{member.facultate}}</h2>
+                            <!-- <h3 font="white">{{member.words}}</h3> -->
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 
+
+    </div>
 
 </div>

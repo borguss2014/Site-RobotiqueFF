@@ -15,12 +15,16 @@
 
 .dropdown-menu > li > a {
   color: #FFF;
+  -webkit-transition:all .15s ease-in-out;
+  transition:all .15s ease-in-out
 }
 
 .dropdown-menu > li > a:hover {
     background-color: #990000;
     background-image: none;
     color: #FFF;
+    -webkit-transition:all .15s ease-in-out;
+    transition:all .15s ease-in-out
 }
 
 .navbar .navbar-brand,
@@ -31,11 +35,15 @@
 
 .navbar .navbar-nav > li > a {
     color: #FFF;
+    -webkit-transition:all .15s ease-in-out;
+    transition:all .15s ease-in-out
 }
 
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li > a:focus {
     background-color: #990000;
+    -webkit-transition:all .15s ease-in-out;
+    transition:all .15s ease-in-out
 }
 
 
